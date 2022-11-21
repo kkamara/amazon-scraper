@@ -1,4 +1,4 @@
-# Amazon Scraper
+# Amazon Scraper [![API](https://github.com/kkamara/amazon-scraper/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/amazon-scraper/actions/workflows/build.yml)
 
 Navigates to amazon, searches for samsung phones and pulls the title and price data.
 
