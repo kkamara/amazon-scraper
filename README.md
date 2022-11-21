@@ -66,13 +66,13 @@ docker run -it -p 8001:80 laravel-docker-aws
 
 ## Usage
 
+Update the command at [./app/Console/Commands/BrowserScrape.php](https://raw.githubusercontent.com/kkamara/amazon-scraper/develop/app/Console/Commands/BrowserScrape.php)
+
 ```bash
 php artisan browser:scrape
 ```
 
 [Browser class code.](https://raw.githubusercontent.com/kkamara/amazon-scraper/develop/app/Http/Browser.php)
-
-[BrowserScrape command code.](https://raw.githubusercontent.com/kkamara/amazon-scraper/develop/app/Console/Commands/BrowserScrape.php)
 
 ## Adding a new command <a name="adding-commands"></a>
 
