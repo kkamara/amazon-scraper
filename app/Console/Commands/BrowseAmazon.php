@@ -6,14 +6,14 @@ use Illuminate\Console\Command;
 use App\Http\Browser;
 use Facebook\WebDriver\WebDriverBy;
 
-class BrowserScrape extends Command
+class BrowseAmazon extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'browser:scrape';
+    protected $signature = 'browse:amazon';
 
     /**
      * The console command description.

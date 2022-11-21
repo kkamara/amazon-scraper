@@ -70,7 +70,7 @@ jobs:
       - name: curl to localhost
         run: curl localhost:8000 &
       - name: Run web scraping
-        run: sudo php artisan browser:scrape
+        run: sudo php artisan browse:amazon
       - name: Upload Screenshots
         if: failure()
         uses: actions/upload-artifact@v2
