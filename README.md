@@ -103,7 +103,7 @@ The [mailhog](https://github.com/mailhog/MailHog) docker image runs at `http://l
 
 [See php scraper.](https://github.com/kkamara/php-scraper)
 
-[See laravel react boilerplate.](https://github.com/kkamara/laravel-react-boilerplate)
+[See php react boilerplate.](https://github.com/kkamara/laravel-react-boilerplate)
 
 [See python amazon scraper 2.](https://github.com/kkamara/selenium-py)
 
