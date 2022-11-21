@@ -54,7 +54,9 @@ We're able to cover 20, 000 sites / night / machine.
 cp .env.example .env
 touch database/database.sqlite
 composer i
-make dev && make backend-migrate
+make dev
+# optional
+# make backend-migrate
 ```
 
 ## Using Docker? <a name="using-docker"></a>
@@ -66,13 +68,15 @@ docker run -it -p 8001:80 laravel-docker-aws
 
 ## Usage
 
-Update the command at [./app/Console/Commands/BrowserScrape.php](https://raw.githubusercontent.com/kkamara/amazon-scraper/develop/app/Console/Commands/BrowserScrape.php)
+Update the command at [./app/Console/Commands/BrowseAmazon.php](https://raw.githubusercontent.com/kkamara/amazon-scraper/develop/app/Console/Commands/BrowseAmazon.php)
 
 ```bash
-php artisan browser:scrape
+php artisan browse:amazon
 ```
 
-[Browser class code.](https://raw.githubusercontent.com/kkamara/amazon-scraper/develop/app/Http/Browser.php)
+[BrowserInvoker.php](https://raw.githubusercontent.com/kkamara/amazon-scraper/develop/app/Console/Commands/BrowserInvoker.php)
+
+[Browser.php](https://raw.githubusercontent.com/kkamara/amazon-scraper/develop/app/Http/Browser.php)
 
 ## Adding a new command <a name="adding-commands"></a>
 
