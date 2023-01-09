@@ -14,7 +14,6 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         Commands\BrowserInvoker::class,
-        Commands\BrowserScrape::class,
         Commands\App\MakeCrawler::class,
     ];
 
