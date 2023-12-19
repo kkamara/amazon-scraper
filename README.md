@@ -95,7 +95,7 @@ php artisan make:crawler crawler_test
 
 ![docker-mailhog3.png](https://raw.githubusercontent.com/kkamara/useful/main/docker-mailhog3.png)
 
-Mail environment credentials are at [.env](https://raw.githubusercontent.com/kkamara/laravel-react-boilerplate/develop/.env.example).
+Mail environment credentials are at [.env](https://raw.githubusercontent.com/kkamara/php-reactjs-boilerplate/main/.env.example).
 
 The [mailhog](https://github.com/mailhog/MailHog) docker image runs at `http://localhost:8025`.
 
@@ -103,7 +103,7 @@ The [mailhog](https://github.com/mailhog/MailHog) docker image runs at `http://l
 
 [See php scraper.](https://github.com/kkamara/php-scraper)
 
-[See php react boilerplate.](https://github.com/kkamara/laravel-react-boilerplate)
+[See php reactjs boilerplate.](https://github.com/kkamara/php-reactjs-boilerplate)
 
 [See python amazon scraper 2.](https://github.com/kkamara/selenium-py)
 
