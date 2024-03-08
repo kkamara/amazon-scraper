@@ -41,12 +41,12 @@ class BrowserInvoker extends Command
      */
     public function handle()
     {
+        $url = 'https://kelvinkamara.com';
         while(true) {
-            break;
             /**
              * We can also dispatch jobs in parallel (See https://laravel.com/docs/9.x/queues#chains-within-batches)
              */
-            // $code = $this->call('browser:scrape', ['url' => $id,]);
+            $code = $this->call('browser:scrape', ['url' => $url,]);
             if (2 === $code) {
                 $seconds = 2 * 60;
                 Log::info('Sleeping for '.$seconds.' seconds');
