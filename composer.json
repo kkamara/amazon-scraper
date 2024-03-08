@@ -2,7 +2,7 @@
     "name": "kkamara/amazon-scraper",
     "version": "1.0.0",
     "type": "project",
-    "description": "Navigates to amazon, searches for samsung phones and pulls the title and price data.",
+    "description": "(2022) Navigates to amazon, searches for samsung phones and pulls the title and price data.",
     "keywords": ["laravel", "selenium", "web-scraping"],
     "license": "BSD",
     "require": {
