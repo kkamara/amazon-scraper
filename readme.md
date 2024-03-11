@@ -57,6 +57,9 @@ composer i
 make dev
 # optional
 # make backend-migrate
+# (optional)
+# npm install
+# npm run dev
 ```
 
 ## Using Docker? <a name="using-docker"></a>
