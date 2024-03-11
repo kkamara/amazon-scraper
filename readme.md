@@ -1,3 +1,5 @@
+<img src="https://github.com/kkamara/useful/raw/main/selenium-py.png" alt="selenium-py.png" width=""/>
+
 # Amazon Scraper [![API](https://github.com/kkamara/amazon-scraper/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/amazon-scraper/actions/workflows/build.yml)
 
 (2022) Navigates to amazon, searches for samsung phones and pulls the title and price data. I highly recommend working with Linux (including virtual machines) or MacOs.
