@@ -34,16 +34,6 @@
 
 Before you try to scrape any website, go through its robots.txt file. You can access it via `domainname/robots.txt`. There, you will see a list of pages allowed and disallowed for scraping. You should not violate any terms of service of any website you scrape.
 
-With selenium we're limited to 10 max ongoing sessions ([reference](https://forum.katalon.com/t/what-is-the-relationship-between-the-setting-max-concurrent-instances-and-selenium-grid-settings-maxinstances-and-maxsessions/48082/2)).
-
-I've successfully tested 1000 site crawls in a single process (3 hours, 44 minutes, and 47 seconds).
-
-(4 hours x 1000 sites) * 2 = 2000 sites x 8 hours
-
-2000 sites * 10 parallel sessions = 20, 000 sites
-
-We're able to cover 20, 000 sites / night / machine. 
-
 ## Proven in a production environment <a name="proven"></a>
 
 [Getting up and running on amazon ec2.](https://raw.githubusercontent.com/kkamara/amazon-scraper/develop/scripts/setup-project.sh)
