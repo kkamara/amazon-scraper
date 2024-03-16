@@ -1,3 +1,5 @@
+#### This project is now deprecated. Please use [PHP Scraper](https://github.com/kkamara/php-scraper).
+
 <img src="https://github.com/kkamara/useful/raw/main/selenium-py.png" alt="selenium-py.png" width=""/>
 
 # Amazon Scraper [![API](https://github.com/kkamara/amazon-scraper/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/amazon-scraper/actions/workflows/build.yml)
